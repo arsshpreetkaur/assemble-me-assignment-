@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jam Box Studios</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&family=Stick+No+Bills:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+  <div class="skip-links">
+    <a href="#main-content">Skip to main content</a>
+    <a href="#footer">Skip to footer</a>
+  </div>
+
+  <div class="container">
+    <header class="site-header">
+      <nav class="main-nav" role="navigation" aria-label="Main Navigation">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#reservation">Reservation</a></li>
+          <li><a href="#studio">Studio</a></li>
+        </ul>
+      </nav>
+      <img src="https://placekitten.com/1200/900" alt="Jam Box Studios Banner" class="banner">
+    </header>
+
+    <main id="main-content" role="main">
+      <section id="home">
+        <h1>Welcome to Jam Box</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit...</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit...</p>
+      </section>
+
+      <section id="owner">
+        <h2>Meet the owner</h2>
+        <ul>
+          <li>Name: John Doe</li>
+          <li>Title: CEO</li>
+          <li>Email: <a href="mailto:johnjoe@jambox.ca">johnjoe@jambox.ca</a></li>
+          <li>Phone: <a href="tel:613-000-0000">613-000-0000</a></li>
+        </ul>
+      </section>
+
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="thanks.html" method="post">
+          <label for="fullName">Full Name</label>
+          <input type="text" id="fullName" name="fullName" placeholder="Full Name" required>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Email" required>
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject" placeholder="Subject" required>
+          <label for="message">Your Message</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </section>
+    </main>
+
+    <footer id="footer" class="site-footer" role="contentinfo">
+      &copy; 2021 Jam Box Studios
+    </footer>
+  </div>
+</body>
+</html>
